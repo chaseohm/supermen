@@ -162,11 +162,12 @@ a {
     color: black;
     margin-top: 6em;
     margin-left: 1.7em;
+    margin-right: 0;
 }
 .sm-btn-red {
     height: 1em;
     margin-top: 7em;
-    margin-right: .3em;
+    margin-right: .5em;
     margin-left: 2em;
     border: 1px solid #F0F0F0;
     padding: .5em;
@@ -201,14 +202,52 @@ a {
     background-color: #00B1AD;
 }
 .letter-d {
+    font-size: 11px;
+    font-family: anton;
+    height: 10px;
+    margin-top: 9.5em;
+    margin-right: 5em;
 
 }
 .letter-d1 {
+    font-size: 11px;
+    font-family: anton;
 
 }
 .letter-s {
+    font-size: 11px;
+    font-family: anton;
+
 
 }
 .letter-h {
+    font-size: 11px;
+    font-family: anton;
 
+}
+/*.letter-d {
+    font-size: 11px;
+    font-family: anton;
+    height: 10px;
+    margin-top: ;
+    margin-right: ;
+}
+.letter-d1 {
+    font-size: 11px;
+    font-family: anton;
+    margin-top: ;
+    margin-left: 20em;
+}
+.letter-s {
+    font-size: 11px;
+    font-family: anton;
+    margin-top: -4.8em;
+    margin-left: 20.81em;
+
+}
+.letter-h {
+    font-size: 11px;
+    font-family: anton;
+    margin-top: -8.15em;
+    margin-left: 25.4em;
 }
