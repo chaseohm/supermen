@@ -160,6 +160,55 @@ a {
 .fp {
     font-family: abel;
     color: black;
-    margin-top: 7em;
+    margin-top: 6em;
     margin-left: 1.7em;
+}
+.sm-btn-red {
+    height: 1em;
+    margin-top: 7em;
+    margin-right: .3em;
+    margin-left: 2em;
+    border: 1px solid #F0F0F0;
+    padding: .5em;
+    border-radius: 100%;
+    background-color: #E6563B;
+}
+.sm-btn-yellow {
+    height: 1em;
+    margin-top: 7em;
+    margin-right: .3em;
+    border: 1px solid #F0F0F0;
+    padding: .5em;
+    border-radius: 100%;
+    background-color: #F19C00;
+}
+.sm-btn-green {
+    height: 1em;
+    margin-top: 7em;
+    margin-right: .3em;
+    border: 1px solid #F0F0F0;
+    padding: .5em;
+    border-radius: 100%;
+    background-color: #6BB76C;
+}
+.sm-btn-blue {
+    height: 1em;
+    margin-top: 7em;
+    margin-right: .3em;
+    border: 1px solid #F0F0F0;
+    padding: .5em;
+    border-radius: 100%;
+    background-color: #00B1AD;
+}
+.letter-d {
+
+}
+.letter-d1 {
+
+}
+.letter-s {
+
+}
+.letter-h {
+
 }
