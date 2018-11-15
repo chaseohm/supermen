@@ -30,3 +30,64 @@ body {
 h1 {
     font-family: abel;
 }
+.nav-list {
+    margin-top: 5em;
+    margin-left: 1.6em;
+}
+.column-services {
+    padding-left: .4em ;
+    padding-right: .4em;
+    color: black;
+}
+.column-work {
+    padding-left: .4em ;
+    padding-right: .4em;
+}
+.column-blog {
+    padding-left: .4em ;
+    padding-right: .4em;
+}
+.column-contact {
+    padding-left: .4em ;
+    padding-right: .4em;
+}
+a {
+    color: black;
+    font-family: abel;
+}
+.header-h1 {
+    height: 4em;
+    width: 100%;
+    padding-left: 1.5em;
+}
+.main-h1-a {
+    padding-right: .5em;
+    text-align: center;
+    font-family: anton;
+    font-size: 2.5em;
+}
+.main-h1-b {
+    padding-right: .2em;
+    font-family: anton;
+    font-size: 2.5em;
+}
+.main-h2 {
+    padding-top: 3.5em;
+    text-align: center;
+    width: 100%;
+    font-family: anton;
+    font-size: 1.5em;
+}
+.column-red-design {
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+    border: solid white .4em;
+    border-radius: 50% ;
+    width: 5%;
+    margin-top:2em;
+    margin-left: 2.3em;
+    background-color: #E6563B;
+}
+
