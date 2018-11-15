@@ -79,15 +79,54 @@ a {
     font-size: 1.5em;
 }
 .column-red-design {
-    padding-top: 3em;
-    padding-right: 3em;
-    padding-bottom: 3em;
-    padding-left: 3em;
-    border: solid white .4em;
+    padding-top: 3.4em;
+    padding-right: 3.4em;
+    padding-bottom: 3.4em;
+    padding-left: 3.4em;
+    border: solid white .5em;
     border-radius: 50% ;
     width: 5%;
     margin-top:2em;
     margin-left: 2.3em;
     background-color: #E6563B;
 }
-
+.column-green-support {
+    padding-top: 3.4em;
+    padding-right: 3.4em;
+    padding-bottom: 3.4em;
+    padding-left: 3.4em;
+    border: solid white .5em;
+    border-radius: 50% ;
+    width: 5%;
+    margin-top:-3.5em;
+    margin-left: 2.3em;
+    background-color: #6BB76C;
+}
+.column-yellow-develop {
+    padding-top: 3.4em;
+    padding-right: 3.4em;
+    padding-bottom: 3.4em;
+    padding-left: 3.4em;
+    border: solid white .5em;
+    border-radius: 50% ;
+    width: 5%;
+    margin-top: -7.7em;
+    margin-left: 2.3em;
+    margin-right: 1.9em;
+    background-color: #F19C00;
+    float: right;
+}
+.column-blue-host {
+    padding-top: 3.4em;
+    padding-right: 3.4em;
+    padding-bottom: 3.4em;
+    padding-left: 3.4em;
+    border: solid white .5em;
+    border-radius: 50%;
+    width: 5%;
+    margin-top: -7.7em;
+    margin-left: 2.3em;
+    margin-right: 1.9em;
+    background-color: #00B1AD;
+    float: right;
+}
