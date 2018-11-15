@@ -132,3 +132,34 @@ a {
     margin-top: -2.55em;
     margin-left: 2.3em;
 }
+.btn-label-support {
+    color: white;
+    font-family: anton;
+    font-size: 90px;
+    margin-top: -1.55em;
+    margin-left: .83em;
+}
+.btn-label-host {
+    color: white;
+    font-family: anton;
+    font-size: 90px;
+    margin-top: -1.55em;
+    margin-left: .76em;
+}
+.sw {
+    color: black;
+    font-family: abel;
+    margin-left: 6.5em;
+}
+.ipad {
+    width: 85%;
+    height: 10em;
+    border: .5em solid #C9C9C9;
+    margin-left: 1.5em;
+}
+.fp {
+    font-family: abel;
+    color: black;
+    margin-top: 7em;
+    margin-left: 1.7em;
+}
