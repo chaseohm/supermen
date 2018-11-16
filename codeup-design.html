@@ -13,104 +13,81 @@
     <!--THESE ARE FONT LINKS-->
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
-    <!-- THIS IS THE WHITE BANNER, AND THE LOGO AND  THE MAIN HEADER (CodeUp Design)-->
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="column center">
-            <div class="d-flex justify-content-center">
-                <img src="logo.png" class="logo">
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="column center">
-            <div class="d-flex justify-content-center">
-                <h1>codeup design</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<!--   THESE ARE THE NAV LINKS-->
-<div class="nav-list">
-    <nav>
-        <div class="row nav-list">
-            <div class="column-services"><a href="#">Services</a></div>
-            <div class="column-work"><a href="#">Work</a></div>
-            <div class="column-blog"><a href="#">Blog</a></div>
-            <div class="column-contact"><a href="#">Contact</a></div>
-        </div>
-    </nav>
-</div>
-<!--This is the first h1 portion -->
-<div class="header-h1">
-    <h1 class="main-h1-a">VISUAL DESIGN & </h1>
-    <h1 class="main-h1-b">WEB DEVELOPMENT</h1>
-</div>
-<!--FROM PARK CITY UTAH H2-->
-<div class="main-h2">
-    <h2> FROM PARK CITY, UTAH</h2>
-</div>
-<!--THESE ARE THE FOUR COLORED BUTTONS-->
-<div class="page-links">
-    <div class="'row">
-        <div class="column-red-design">
-        </div>
-        <div class="column-yellow-develop">
-        </div>
-        <div class="row">
-        </div>
-        <div class="column-green-support">
-        </div>
-        <div class="column-blue-host">
-        </div>
-    </div>
-</div>
-<!--BUTTON LABELS -->
-<div class="row">
-    <div class="btn-label-design">
-        <h4>DESIGN</h4>
-    </div>
-    <div class="btn-label-develop">
-        <h4>DEVELOP</h4>
-    </div>
-</div>
-<div class="row">
-    <div class="btn-label-support">
-        <h4>SUPPORT</h4>
-    </div>
-    <div class="btn-label-host">
-        <h4>HOST</h4>
-    </div>
-</div>
-<!--SELECTED WORK AND PICTURE -->
-<div class="row">
-    <div class="column sw">
-        <h6 >SELECTED WORK</h6>
-    </div>
-</div>
-<div class="row">
-    <div class="column">
-        <img src="assets/images/apple-ipad.jpg" class="ipad">
-    </div>
-</div>
+    <!--THIS IS THE WHITE BANNER ON THE TOP-->
+    <div class="nav-background bg-light"></div>
 
-<div class="row">
-    <div class="column fp">
-        <h6>FEATURED PROJECT</h6>
-    </div>
-    <!--THESE ARE THE COLORED BUTTONS AFTER "FEATURED PROJECT"-->
-    <div class="column sm-btn-red"></div>
-    <div class="column sm-btn-yellow"></div>
-    <div class="column sm-btn-green"></div>
-    <div class="column sm-btn-blue"></div>
-    <!--THESE ARE THE LETTERS IN THE BUTTONS-->
-    <div class="column letter-d">D</div>
-    <div class="column letter-d1">D</div>
-    <div class="column letter-s">S</div>
-    <div class="column letter-h">H</div>
-    </div>
+    <div class="nav-background bg-light"></div>
+    <div class="wrapper">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <ul class="nav w-100 justify-content-center">
+                    <li class="order-md-3 order-lg-0 mr-lg-auto">
+                        <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                            <img class="" width="105px" src="logo.png" alt="Codeup Design logo">
+                            <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                        </a>
+                    </li>
+                    <div class="w-100 d-md-none"></div>
+                    <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                    </li>
+                    <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                    </li>
+                    <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                    </li>
+                    <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="container-fluid">
+            <h3 class="text-uppercase text-center">Visual Design & Web Development</h3>
+            <h5 class="text-uppercase text-center mt-4 mb-4">From Park City, Utah</h5>
+            <div class="circles d-flex justify-content-center">
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div class="circle red text-uppercase">
+                        <h6>Design</h6>
+                    </div>
+                    <div class="circle yellow text-uppercase">
+                        <h6>Develop</h6>
+                    </div>
+                    <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                    <div class="circle green text-uppercase">
+                        <h6>Support</h6>
+                    </div>
+                    <div class="circle blue text-uppercase">
+                        <h6>Host</h6>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-none d-md-block">
+        </header>
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <p class="text-uppercase sub-title">Selected Work</p>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="custom-card">
+                                <div class="images images-ipad">
+                                    <img class="invisible w-100" src="assets/images/apple-ipad.jpg" alt="ipad">
+                                </div>
+                                <div class="custom-card-bottom mb-4 mb-md-0 d-flex">
+                                    <div class="mr-auto text-uppercase">Featured Project</div>
+                                    <div class="custom-card-small-circles d-flex align-items-center">
+                                        <div class="small-circles text-center red"><span>D</span></div>
+                                        <div class="small-circles text-center yellow"><span>D</span></div>
+                                        <div class="small-circles text-center green"><span>S</span></div>
+                                        <div class="small-circles text-center blue"><span>H</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 </body>
 </html>
