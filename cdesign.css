@@ -100,10 +100,22 @@ nav .nav-item {
 }
 .small-images-phone {background-image: url("assets/images/mobile-phone.jpg")}
 .small-images-head {background-image: url("assets/images/head.jpg")}
-.small-images-google {background-image: url("assets/images/google-search.jpg")}
+.small-images-google {background-image: url("assets/images/ipad.jpg")}
 .sub-title {
     text-align: center;
     margin-top: 5em;
+}
+.small-images-head {
+    height: 80px;
+    width: 80px;
+}
+.small-images-google {
+    height: 80px;
+    width: 80px;
+}
+.small-images-phone {
+    height: 80px;
+    width: 80px;
 }
 @media screen and (min-width: 768px) {
     .sub-title {margin-top: 2em;}
